@@ -1,0 +1,17 @@
+{
+  "name": "declarify-ui-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack ./index.js --mode=development"
+  },
+  "dependencies": {
+    "declarify-ui": "file:../declarify-ui",
+    "declarify": "file:../declarify"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
